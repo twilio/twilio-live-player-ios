@@ -27,10 +27,11 @@ We support integration using CocoaPods as well. You can add Player SDK to your p
 ```
 source 'https://github.com/CocoaPods/Specs'
 
-platform :ios, '12.0'
+platform :ios, '11.0'
 
 target 'TARGET_NAME' do
-    pod 'TwilioPlayer', '~> 1.0'
+    pod 'TwilioPlayer', '1.0.0-preview1'
+    pod 'AmazonIVSPlayer', '1.2.0'
 end
 ```
 
@@ -39,7 +40,7 @@ Then run `pod install` to install the dependencies for your project.
 
 ### Manual Integration
 
-See [manual installation](TODO: Get Link) steps.
+See [manual installation](https://www.twilio.com/docs/media/ios-platform-overview#add-the-sdk) steps.
 
 
 ## Issues and Support

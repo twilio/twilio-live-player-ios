@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TwilioPlayerSDK Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Class/TwilioPlayerSDK" class="dashAnchor"></a>
+    <a title="TwilioPlayerSDK Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Twilio Player iOS SDK 1.0.0-preview1 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/twilio/twilio-player-ios"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Twilio Player iOS SDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        TwilioPlayerSDK Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/TPLPlayer.html">TPLPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLPlayerQuality.html">TPLPlayerQuality</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLPlayerStats.html">TPLPlayerStats</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLPlayerView.html">TPLPlayerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTimedMetadata.html">TPLTimedMetadata</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TwilioPlayerSDK.html">TwilioPlayerSDK</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kTPLErrorDomain">kTPLErrorDomain</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/TPLError.html">TPLError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TPLLogLevel.html">TPLLogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TPLPlayerState.html">TPLPlayerState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/TPLPlayerDelegate.html">TPLPlayerDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>TwilioPlayerSDK</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">TwilioPlayerSDK</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p><code>TwilioPlayerSDK</code> is the root class of the Twilio Player SDK. You can connect to a Live Stream using class methods on this class.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TwilioPlayerSDK(cm)connectWithAccessToken:delegate:"></a>
+                    <a name="//apple_ref/objc/Method/+connectWithAccessToken:delegate:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TwilioPlayerSDK(cm)connectWithAccessToken:delegate:">+connectWithAccessToken:<wbr>delegate:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Connect to a Live Stream with a Twilio Access Token and a delegate.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/TPLPlayer.html">TPLPlayer</a></span> <span class="o">*</span><span class="p">)</span><span class="nf">connectWithAccessToken</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">accessToken</span>
+                                     <span class="nf">delegate</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/TPLPlayerDelegate.html">TPLPlayerDelegate</a></span><span class="o">&gt;</span><span class="p">)</span>
+                                                  <span class="n">delegate</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>accessToken</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The Twilio Access Token.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>delegate</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A delegate conforming to <code><a href="../Protocols/TPLPlayerDelegate.html">TPLPlayerDelegate</a></code> for handling Player related events.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An instance of <code>TVIPlayer</code>.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TwilioPlayerSDK(cm)sdkVersion"></a>
+                    <a name="//apple_ref/objc/Method/+sdkVersion" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TwilioPlayerSDK(cm)sdkVersion">+sdkVersion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>API to return the SDK version.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="n">sdkVersion</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Player sdk version of type string.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TwilioPlayerSDK(im)init"></a>
+                    <a name="//apple_ref/objc/Method/-init" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(cs)TwilioPlayerSDK(im)init">-init</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-unavailable">
+                        <p class="aside-title">Unavailable</p>
+                        <p>Use TwilioPlayerSDK class factory methods to create a TPLPlayer.</p>
+
+                      </div>
+                      <div class="abstract">
+                        <p>Developers shouldn&rsquo;t initialize this class directly.
+@discussion Use <code>TwilioPlayerSDK</code> class factory methods to create a <code><a href="../Classes/TPLPlayer.html">TPLPlayer</a></code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">null_unspecified</span> <span class="n">instancetype</span><span class="p">)</span><span class="n">init</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright © 2021 Twilio, Inc. All rights reserved.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

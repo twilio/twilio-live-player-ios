@@ -10,7 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "TwilioPlayer",
-            targets: ["TwilioPlayer", "AmazonIVSPlayer"],
+            targets: ["TwilioPlayer", "AmazonIVSPlayer"]
         )
     ],
     targets: [

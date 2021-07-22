@@ -1,0 +1,54 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/distiller/project/TwilioPlayer/TwilioPlayer/Sources/Objective-C/Interfaces/TPLError.h",
+      "line": 16,
+      "symbol": "kTPLErrorDomain",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/TwilioPlayer/TwilioPlayer/Sources/Objective-C/Interfaces/TPLLogLevel.h",
+      "line": 9,
+      "symbol": "TPLLogLevel",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/TwilioPlayer/TwilioPlayer/Sources/Objective-C/Interfaces/TPLLogLevel.h",
+      "line": 9,
+      "symbol": "TPLLogLevel",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/TwilioPlayer/TwilioPlayer/Sources/Objective-C/Interfaces/TPLLogLevel.h",
+      "line": 10,
+      "symbol": "TPLLogLevel.TPLLogLevelDebug",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/TwilioPlayer/TwilioPlayer/Sources/Objective-C/Interfaces/TPLLogLevel.h",
+      "line": 11,
+      "symbol": "TPLLogLevel.TPLLogLevelInfo",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/TwilioPlayer/TwilioPlayer/Sources/Objective-C/Interfaces/TPLLogLevel.h",
+      "line": 12,
+      "symbol": "TPLLogLevel.TPLLogLevelWarning",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/TwilioPlayer/TwilioPlayer/Sources/Objective-C/Interfaces/TPLLogLevel.h",
+      "line": 13,
+      "symbol": "TPLLogLevel.TPLLogLevelError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/distiller/project/TwilioPlayer/TwilioPlayer/Sources/Objective-C/Interfaces"
+}

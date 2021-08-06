@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TwilioPlayer",
-            url: "https://github.com/twilio/twilio-player-ios/releases/download/1.0.0-preview8/TwilioPlayer.xcframework.zip",
-            checksum: "a4288b2e62e0511cbbcce76bd77141f2ff5ae95080c25554ebb06456f550e27c"
+            url: "https://github.com/twilio/twilio-player-ios/releases/download/1.0.0-preview9/TwilioPlayer.xcframework.zip",
+            checksum: "cde3f7cf2a46f032bdbc26e222420958e8c27344aca559ebb39b802197bfe8dc"
         ),
         .binaryTarget(
             name: "AmazonIVSPlayer",

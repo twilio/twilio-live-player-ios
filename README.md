@@ -1,11 +1,11 @@
-# Twilio Player SDK for iOS
+# Twilio Live Player SDK for iOS
 
 This repository contains releases of Twilio's Player SDK for iOS. These releases can be consumed using Swift Package Manager, CocoaPods or manual integration into your project.
 
 
 ### Swift Package Manager
 
-You can add Player SDK for iOS by adding the `https://github.com/twilio/twilio-player-ios` repository as a Swift Package.
+You can add Player SDK for iOS by adding the `https://github.com/twilio/twilio-live-player-ios` repository as a Swift Package.
 
 In your Build Settings, you will also need to modify `Other Linker Flags` to include `-ObjC.`
 
@@ -30,7 +30,7 @@ source 'https://github.com/CocoaPods/Specs'
 platform :ios, '11.0'
 
 target 'TARGET_NAME' do
-    pod 'TwilioPlayer', '1.0.0-preview1'
+    pod 'TwilioLivePlayer', '1.0.0'
     pod 'AmazonIVSPlayer', '1.2.0'
 end
 ```

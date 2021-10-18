@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TPLError Enumeration Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Enum/TPLError" class="dashAnchor"></a>
+    <a title="TPLError Enumeration Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Twilio Player iOS SDK 1.0.0-preview11 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/twilio/twilio-live-player-ios"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Twilio Player iOS SDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        TPLError Enumeration Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/TPLPlayer.html">TPLPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLPlayerQuality.html">TPLPlayerQuality</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLPlayerStats.html">TPLPlayerStats</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLPlayerView">TPLPlayerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetry.html">TPLTelemetry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryData.html">TPLTelemetryData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataConnection.html">TPLTelemetryDataConnection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLTelemetryDataConnectionConnected">TPLTelemetryDataConnectionConnected</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLTelemetryDataConnectionConnecting">TPLTelemetryDataConnectionConnecting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLTelemetryDataConnectionDisconnected">TPLTelemetryDataConnectionDisconnected</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataConnectionError.html">TPLTelemetryDataConnectionError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLTelemetryDataConnectionNetworkUnavailable">TPLTelemetryDataConnectionNetworkUnavailable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlayback.html">TPLTelemetryDataPlayback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlaybackError.html">TPLTelemetryDataPlaybackError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLTelemetryDataPlaybackMuted">TPLTelemetryDataPlaybackMuted</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLTelemetryDataPlaybackPaused">TPLTelemetryDataPlaybackPaused</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLTelemetryDataPlaybackPlayed">TPLTelemetryDataPlaybackPlayed</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlaybackQuality.html">TPLTelemetryDataPlaybackQuality</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlaybackQualityChanged.html">TPLTelemetryDataPlaybackQualityChanged</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlaybackQualityHighLatencyReductionApplied.html">TPLTelemetryDataPlaybackQualityHighLatencyReductionApplied</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLTelemetryDataPlaybackQualityHighLatencyReductionReverted">TPLTelemetryDataPlaybackQualityHighLatencyReductionReverted</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlaybackQualitySet.html">TPLTelemetryDataPlaybackQualitySet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlaybackQualitySummary.html">TPLTelemetryDataPlaybackQualitySummary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlaybackQualityVideoSizeChanged.html">TPLTelemetryDataPlaybackQualityVideoSizeChanged</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLTelemetryDataPlaybackRebuffering">TPLTelemetryDataPlaybackRebuffering</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlaybackState.html">TPLTelemetryDataPlaybackState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlaybackStateChanged.html">TPLTelemetryDataPlaybackStateChanged</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLTelemetryDataPlaybackUnmuted">TPLTelemetryDataPlaybackUnmuted</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlaybackVolumeSet.html">TPLTelemetryDataPlaybackVolumeSet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataTimedMetadataReceived.html">TPLTelemetryDataTimedMetadataReceived</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTimedMetadata.html">TPLTimedMetadata</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTimedMetadataTelemetry.html">TPLTimedMetadataTelemetry</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kTPLErrorDomain">kTPLErrorDomain</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/TPLError.html">TPLError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TPLLogLevel.html">TPLLogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TPLPlayerState.html">TPLPlayerState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/TPLPlayerDelegate.html">TPLPlayerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TPLTelemetrySubscriber.html">TPLTelemetrySubscriber</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:TPLTelemetry.h@T@TPLTelemetryPredicate">TPLTelemetryPredicate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>TPLError</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight objective_c"><code><span class="k">enum</span> <span class="n">TPLError</span> <span class="p">{}</span></code></pre>
+
+                </div>
+              </div>
+            <p>An enumeration indicating the errors that can be raised by the SDK.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@TPLError@TPLErrorAccessTokenInvalidError"></a>
+                    <a name="//apple_ref/objc/Case/TPLErrorAccessTokenInvalidError" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@TPLError@TPLErrorAccessTokenInvalidError">TPLErrorAccessTokenInvalidError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>&lt; Twilio was unable to validate your Access Token</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">TPLErrorAccessTokenInvalidError</span> <span class="o">=</span> <span class="mi">20101</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@TPLError@TPLErrorPlaybackMediaError"></a>
+                    <a name="//apple_ref/objc/Case/TPLErrorPlaybackMediaError" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@TPLError@TPLErrorPlaybackMediaError">TPLErrorPlaybackMediaError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>&lt; An error occurred playing back media content</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">TPLErrorPlaybackMediaError</span> <span class="o">=</span> <span class="mi">56000</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@TPLError@TPLErrorPlaybackAuthorizationError"></a>
+                    <a name="//apple_ref/objc/Case/TPLErrorPlaybackAuthorizationError" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@TPLError@TPLErrorPlaybackAuthorizationError">TPLErrorPlaybackAuthorizationError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>&lt; A network resource is not authorized</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">TPLErrorPlaybackAuthorizationError</span> <span class="o">=</span> <span class="mi">56001</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@TPLError@TPLErrorPlaybackInvalidDataError"></a>
+                    <a name="//apple_ref/objc/Case/TPLErrorPlaybackInvalidDataError" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@TPLError@TPLErrorPlaybackInvalidDataError">TPLErrorPlaybackInvalidDataError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>&lt; Data or input is invalid</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">TPLErrorPlaybackInvalidDataError</span> <span class="o">=</span> <span class="mi">56002</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@TPLError@TPLErrorPlaybackInvalidParameterError"></a>
+                    <a name="//apple_ref/objc/Case/TPLErrorPlaybackInvalidParameterError" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@TPLError@TPLErrorPlaybackInvalidParameterError">TPLErrorPlaybackInvalidParameterError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>&lt; A method parameter is invalid</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">TPLErrorPlaybackInvalidParameterError</span> <span class="o">=</span> <span class="mi">56003</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@TPLError@TPLErrorPlaybackInvalidStateError"></a>
+                    <a name="//apple_ref/objc/Case/TPLErrorPlaybackInvalidStateError" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@TPLError@TPLErrorPlaybackInvalidStateError">TPLErrorPlaybackInvalidStateError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>&lt; The Player or an internal object is in an invalid state</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">TPLErrorPlaybackInvalidStateError</span> <span class="o">=</span> <span class="mi">56004</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@TPLError@TPLErrorPlaybackNetworkError"></a>
+                    <a name="//apple_ref/objc/Case/TPLErrorPlaybackNetworkError" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@TPLError@TPLErrorPlaybackNetworkError">TPLErrorPlaybackNetworkError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>&lt; A network error occurred</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">TPLErrorPlaybackNetworkError</span> <span class="o">=</span> <span class="mi">56005</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@TPLError@TPLErrorPlaybackNetworkIOError"></a>
+                    <a name="//apple_ref/objc/Case/TPLErrorPlaybackNetworkIOError" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@TPLError@TPLErrorPlaybackNetworkIOError">TPLErrorPlaybackNetworkIOError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>&lt; A network I/O error occurred</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">TPLErrorPlaybackNetworkIOError</span> <span class="o">=</span> <span class="mi">56006</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@TPLError@TPLErrorPlaybackStreamNotAvailableError"></a>
+                    <a name="//apple_ref/objc/Case/TPLErrorPlaybackStreamNotAvailableError" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@TPLError@TPLErrorPlaybackStreamNotAvailableError">TPLErrorPlaybackStreamNotAvailableError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>&lt; The stream is not available</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">TPLErrorPlaybackStreamNotAvailableError</span> <span class="o">=</span> <span class="mi">56007</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@TPLError@TPLErrorPlaybackTooManyStreamingRequestsError"></a>
+                    <a name="//apple_ref/objc/Case/TPLErrorPlaybackTooManyStreamingRequestsError" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@TPLError@TPLErrorPlaybackTooManyStreamingRequestsError">TPLErrorPlaybackTooManyStreamingRequestsError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>&lt; The current-viewers limit was reached</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">TPLErrorPlaybackTooManyStreamingRequestsError</span> <span class="o">=</span> <span class="mi">56008</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@TPLError@TPLErrorPlaybackNotSupportedError"></a>
+                    <a name="//apple_ref/objc/Case/TPLErrorPlaybackNotSupportedError" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@TPLError@TPLErrorPlaybackNotSupportedError">TPLErrorPlaybackNotSupportedError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>&lt; A method or feature is not supported</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">TPLErrorPlaybackNotSupportedError</span> <span class="o">=</span> <span class="mi">56009</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@TPLError@TPLErrorPlaybackNoSourceError"></a>
+                    <a name="//apple_ref/objc/Case/TPLErrorPlaybackNoSourceError" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@TPLError@TPLErrorPlaybackNoSourceError">TPLErrorPlaybackNoSourceError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>&lt; There is no source for the Player to play</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">TPLErrorPlaybackNoSourceError</span> <span class="o">=</span> <span class="mi">56010</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@TPLError@TPLErrorPlaybackTimeoutError"></a>
+                    <a name="//apple_ref/objc/Case/TPLErrorPlaybackTimeoutError" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@TPLError@TPLErrorPlaybackTimeoutError">TPLErrorPlaybackTimeoutError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>&lt; The Player timed out performing an operation</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">TPLErrorPlaybackTimeoutError</span> <span class="o">=</span> <span class="mi">56011</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright © 2021 Twilio, Inc. All rights reserved.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

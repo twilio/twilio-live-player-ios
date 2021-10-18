@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TPLPlayer Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Class/TPLPlayer" class="dashAnchor"></a>
+    <a title="TPLPlayer Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Twilio Player iOS SDK 1.0.0-preview11 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/twilio/twilio-live-player-ios"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Twilio Player iOS SDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        TPLPlayer Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/TPLPlayer.html">TPLPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLPlayerQuality.html">TPLPlayerQuality</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLPlayerStats.html">TPLPlayerStats</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLPlayerView">TPLPlayerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetry.html">TPLTelemetry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryData.html">TPLTelemetryData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataConnection.html">TPLTelemetryDataConnection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLTelemetryDataConnectionConnected">TPLTelemetryDataConnectionConnected</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLTelemetryDataConnectionConnecting">TPLTelemetryDataConnectionConnecting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLTelemetryDataConnectionDisconnected">TPLTelemetryDataConnectionDisconnected</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataConnectionError.html">TPLTelemetryDataConnectionError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLTelemetryDataConnectionNetworkUnavailable">TPLTelemetryDataConnectionNetworkUnavailable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlayback.html">TPLTelemetryDataPlayback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlaybackError.html">TPLTelemetryDataPlaybackError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLTelemetryDataPlaybackMuted">TPLTelemetryDataPlaybackMuted</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLTelemetryDataPlaybackPaused">TPLTelemetryDataPlaybackPaused</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLTelemetryDataPlaybackPlayed">TPLTelemetryDataPlaybackPlayed</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlaybackQuality.html">TPLTelemetryDataPlaybackQuality</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlaybackQualityChanged.html">TPLTelemetryDataPlaybackQualityChanged</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlaybackQualityHighLatencyReductionApplied.html">TPLTelemetryDataPlaybackQualityHighLatencyReductionApplied</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLTelemetryDataPlaybackQualityHighLatencyReductionReverted">TPLTelemetryDataPlaybackQualityHighLatencyReductionReverted</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlaybackQualitySet.html">TPLTelemetryDataPlaybackQualitySet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlaybackQualitySummary.html">TPLTelemetryDataPlaybackQualitySummary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlaybackQualityVideoSizeChanged.html">TPLTelemetryDataPlaybackQualityVideoSizeChanged</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLTelemetryDataPlaybackRebuffering">TPLTelemetryDataPlaybackRebuffering</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlaybackState.html">TPLTelemetryDataPlaybackState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlaybackStateChanged.html">TPLTelemetryDataPlaybackStateChanged</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)TPLTelemetryDataPlaybackUnmuted">TPLTelemetryDataPlaybackUnmuted</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataPlaybackVolumeSet.html">TPLTelemetryDataPlaybackVolumeSet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTelemetryDataTimedMetadataReceived.html">TPLTelemetryDataTimedMetadataReceived</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTimedMetadata.html">TPLTimedMetadata</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TPLTimedMetadataTelemetry.html">TPLTimedMetadataTelemetry</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kTPLErrorDomain">kTPLErrorDomain</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/TPLError.html">TPLError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TPLLogLevel.html">TPLLogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TPLPlayerState.html">TPLPlayerState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/TPLPlayerDelegate.html">TPLPlayerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TPLTelemetrySubscriber.html">TPLTelemetrySubscriber</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:TPLTelemetry.h@T@TPLTelemetryPredicate">TPLTelemetryPredicate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>TPLPlayer</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight objective_c"><code>
+<span class="k">@interface</span> <span class="nc">TPLPlayer</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>TPLPlayer class to control and observe audio video content and receive timed metadata.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TPLPlayer(py)delegate"></a>
+                    <a name="//apple_ref/objc/Property/delegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TPLPlayer(py)delegate">delegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set this property to be notified about Player events such as connection, and the playback status.
+All delegate callbacks are invoked on the main queue.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">weak</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/TPLPlayerDelegate.html">TPLPlayerDelegate</a></span><span class="o">&gt;</span> <span class="n">delegate</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TPLPlayer(py)liveLatency"></a>
+                    <a name="//apple_ref/objc/Property/liveLatency" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TPLPlayer(py)liveLatency">liveLatency</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>For a live stream, the latency to the source.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">CMTime</span> <span class="n">liveLatency</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TPLPlayer(py)logLevel"></a>
+                    <a name="//apple_ref/objc/Property/logLevel" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TPLPlayer(py)logLevel">logLevel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Logging level for the player. Default is <code>TPLLogLevelError</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">)</span> <span class="n"><a href="../Enums/TPLLogLevel.html">TPLLogLevel</a></span> <span class="n">logLevel</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TPLPlayer(py)muted"></a>
+                    <a name="//apple_ref/objc/Property/muted" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TPLPlayer(py)muted">muted</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The audio-muting state of the Player. Default is <code>false</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">getter</span><span class="o">=</span><span class="n">isMuted</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">muted</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TPLPlayer(py)position"></a>
+                    <a name="//apple_ref/objc/Property/position" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TPLPlayer(py)position">position</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Playback position.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">CMTime</span> <span class="n">position</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TPLPlayer(py)state"></a>
+                    <a name="//apple_ref/objc/Property/state" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TPLPlayer(py)state">state</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents Player&rsquo;s playback status.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n"><a href="../Enums/TPLPlayerState.html">TPLPlayerState</a></span> <span class="n">state</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TPLPlayer(py)quality"></a>
+                    <a name="//apple_ref/objc/Property/quality" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TPLPlayer(py)quality">quality</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Current quality being played, if any.</p>
+
+<p>This property returns nil before an initial quality has been determined.</p>
+
+<p>This property is key-value observable.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="../Protocols/TPLPlayerDelegate.html#/c:objc(pl)TPLPlayerDelegate(im)player:didChangeQuality:">-[TPLPlayerDelegate player:didChangeQuality:]</a></code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n"><a href="../Classes/TPLPlayerQuality.html">TPLPlayerQuality</a></span> <span class="o">*</span><span class="n">quality</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TPLPlayer(py)availableQualities"></a>
+                    <a name="//apple_ref/objc/Property/availableQualities" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TPLPlayer(py)availableQualities">availableQualities</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Quality objects from the loaded source or empty if none are currently available.
+The qualities will be available after the <code>TPLPlayerStateReady</code> state has been entered.
+This contains the qualities that can be assigned to <code><a href="../Classes/TPLPlayer.html#/c:objc(cs)TPLPlayer(py)quality">quality</a></code>.
+Note that this set will contain only qualities capable of being played on the current device
+and not all those present in the source stream.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">,</span> <span class="n">nonnull</span><span class="p">)</span> <span class="n">NSArray</span><span class="o">&lt;</span><span class="n"><a href="../Classes/TPLPlayerQuality.html">TPLPlayerQuality</a></span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">availableQualities</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TPLPlayer(py)streamerSid"></a>
+                    <a name="//apple_ref/objc/Property/streamerSid" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TPLPlayer(py)streamerSid">streamerSid</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A <a href="https://www.twilio.com/docs/media/playerstreamers">PlayerStreamer</a> SID.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">readonly</span><span class="p">,</span> <span class="n">nonnull</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">streamerSid</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TPLPlayer(py)stats"></a>
+                    <a name="//apple_ref/objc/Property/stats" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TPLPlayer(py)stats">stats</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents Player&rsquo;s stats</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">,</span> <span class="n">nonnull</span><span class="p">)</span> <span class="n"><a href="../Classes/TPLPlayerStats.html">TPLPlayerStats</a></span> <span class="o">*</span><span class="n">stats</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TPLPlayer(py)videoSize"></a>
+                    <a name="//apple_ref/objc/Property/videoSize" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TPLPlayer(py)videoSize">videoSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Native size of the current video source, in pixels. Default: <code>CGSizeZero</code> until the first frame is rendered.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code>-[TPLPlayerDelegate player:didChangeVideoSize:]</code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">CGSize</span> <span class="n">videoSize</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TPLPlayer(py)volume"></a>
+                    <a name="//apple_ref/objc/Property/volume" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TPLPlayer(py)volume">volume</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Volume of the audio track, if any. Supported range: 0.0 to 1.0. Default: 1.0 (max).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">)</span> <span class="kt">float</span> <span class="n">volume</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TPLPlayer(cpy)telemetry"></a>
+                    <a name="//apple_ref/objc/Property/telemetry" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TPLPlayer(cpy)telemetry">telemetry</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A Player SDK telemetry emitter. Reference the snippet below to subscribe to telemetry
+data in your application. This data can be used for reporting Player SDK events and
+metrics to your applications analytics.</p>
+
+<p>Usage:</p>
+<pre class="highlight objective_c"><code><span class="n">Subscribe</span> <span class="n">the</span> <span class="n">logger</span> <span class="n">to</span> <span class="n">events</span>
+<span class="n">Player</span><span class="p">.</span><span class="n">telemetry</span><span class="p">.</span><span class="n">subscribe</span><span class="p">(</span><span class="n">subscriber</span><span class="p">)</span>
+
+<span class="n">extension</span> <span class="n">Subscriber</span><span class="o">:</span> <span class="n">TelemetrySubscriber</span> <span class="p">{</span>
+   <span class="n">func</span> <span class="n">didReceiveTelemetryData</span><span class="p">(</span><span class="n">_</span> <span class="n">data</span><span class="o">:</span> <span class="n">TelemetryData</span><span class="p">)</span> <span class="p">{</span>
+       <span class="n">os_log</span><span class="p">(</span><span class="s">"TELEMETRY : %@"</span><span class="p">,</span> <span class="n">log</span><span class="o">:</span> <span class="n">log</span><span class="p">,</span>  <span class="n">type</span><span class="o">:</span><span class="p">.</span><span class="k">default</span><span class="p">,</span> <span class="s">"\(data)"</span><span class="p">)</span>
+   <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">class</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">,</span> <span class="n">nonnull</span><span class="p">)</span> <span class="n"><a href="../Classes/TPLTelemetry.html">TPLTelemetry</a></span> <span class="o">*</span><span class="n">telemetry</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TPLPlayer(cpy)highLatencyReductionEnabled"></a>
+                    <a name="//apple_ref/objc/Property/highLatencyReductionEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TPLPlayer(cpy)highLatencyReductionEnabled">highLatencyReductionEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns whether the Player SDK will apply high latency reduction strategies when high
+latency is detected. This property defaults to <code>true</code>. The Player SDK considers a
+<code>Player.liveLatency</code> value greater than 3 seconds as an occurrence of high latency.
+When this property is enabled, the Player SDK will periodically inspect
+<code>Player.liveLatency</code> and perform the following when high latency is observed:</p>
+
+<ol>
+<li>If the live latency is between 3 and 5 seconds, the Player will increase the
+playback rate to a value that should not be perceptible to a user. The increased
+playback rate will allow the Player to catch up to the live source, and will
+be reverted once the live latency drops below 3 seconds. Application of this
+strategy may result in audio pitch distortion.</li>
+<li>If the live latency is above 5 seconds, the Player will seek ahead to near the end
+of the Player&rsquo;s buffered content. The user will notice skips in the media content
+when this strategy is applied.</li>
+</ol>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">class</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">assign</span><span class="p">,</span> <span class="n">unsafe_unretained</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span>
+          <span class="n">getter</span><span class="o">=</span><span class="n">isHighLatencyReductionEnabled</span><span class="p">)</span>
+    <span class="n">BOOL</span> <span class="n">highLatencyReductionEnabled</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TPLPlayer(py)playerView"></a>
+                    <a name="//apple_ref/objc/Property/playerView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TPLPlayer(py)playerView">playerView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A view that renders Player media content.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n"><a href="../Classes.html#/c:objc(cs)TPLPlayerView">TPLPlayerView</a></span> <span class="o">*</span><span class="n">playerView</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TPLPlayer(im)pause"></a>
+                    <a name="//apple_ref/objc/Method/-pause" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TPLPlayer(im)pause">-pause</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Pauses playback. <code><a href="../Classes/TPLPlayer.html#/c:objc(cs)TPLPlayer(py)state">state</a></code> transitions to <code>TPLPlayerStateIdle</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">pause</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TPLPlayer(im)play"></a>
+                    <a name="//apple_ref/objc/Method/-play" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TPLPlayer(im)play">-play</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Starts or resumes playback of the current stream.
+On success depending on the type of stream the player state will change to <code>TPLPlayerStateBuffering</code>
+and then <code>TPLlayerStatePlaying</code> or just <code>TPLPlayerStatePlaying</code>. On failure invokes the error delegate.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">play</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TPLPlayer(im)init"></a>
+                    <a name="//apple_ref/objc/Method/-init" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(cs)TPLPlayer(im)init">-init</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-unavailable">
+                        <p class="aside-title">Unavailable</p>
+                        <p>TPLPlayer can not be created with init</p>
+
+                      </div>
+                      <div class="abstract">
+                        <p>Developers shouldn&rsquo;t initialize this class directly.</p>
+
+<p><code>TPLPlayer</code> can not be created with init.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">null_unspecified</span> <span class="n">instancetype</span><span class="p">)</span><span class="n">init</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TPLPlayer(cm)connectWithAccessToken:delegate:"></a>
+                    <a name="//apple_ref/objc/Method/+connectWithAccessToken:delegate:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TPLPlayer(cm)connectWithAccessToken:delegate:">+connectWithAccessToken:<wbr>delegate:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Connect to a Live Stream with a Twilio Access Token and a delegate.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nonnull</span> <span class="n">TPLPlayer</span> <span class="o">*</span><span class="p">)</span><span class="nf">connectWithAccessToken</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">accessToken</span>
+                                     <span class="nf">delegate</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/TPLPlayerDelegate.html">TPLPlayerDelegate</a></span><span class="o">&gt;</span><span class="p">)</span>
+                                                  <span class="n"><a href="../Classes/TPLPlayer.html#/c:objc(cs)TPLPlayer(py)delegate">delegate</a></span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>accessToken</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The Twilio Access Token.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>delegate</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A delegate conforming to <code><a href="../Protocols/TPLPlayerDelegate.html">TPLPlayerDelegate</a></code> for handling Player related events.
+@throws If the runtime IVS SDK version does not match the build time version.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An instance of <code>TPLPlayer</code>.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TPLPlayer(cm)sdkVersion"></a>
+                    <a name="//apple_ref/objc/Method/+sdkVersion" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TPLPlayer(cm)sdkVersion">+sdkVersion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>API to return the SDK version.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="n">sdkVersion</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Player sdk version of type string.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright © 2021 Twilio, Inc. All rights reserved.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

@@ -31,7 +31,7 @@ platform :ios, '11.0'
 
 target 'TARGET_NAME' do
     pod 'TwilioLivePlayer', '1.0.0'
-    pod 'AmazonIVSPlayer', '1.2.0'
+    pod 'AmazonIVSPlayer', '1.5.0'
 end
 ```
 

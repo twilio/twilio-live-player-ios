@@ -16,13 +16,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TwilioLivePlayer",
-            url: "https://github.com/twilio/twilio-live-player-ios/releases/download/1.0.1/TwilioLivePlayer.xcframework.zip",
-            checksum: "47969f20688089638c0cd8bbd47a9015091f116d67eb710d228abc0fa34ab6f8"
+            url: "https://github.com/twilio/twilio-live-player-ios/releases/download/1.1.0/TwilioLivePlayer.xcframework.zip",
+            checksum: "49140ae4ac73831b67f28bf5be152b8ec28c658136ed97b3a15230bf81f48bab"
         ),
         .binaryTarget(
             name: "AmazonIVSPlayer",
-            url: "https://player.live-video.net/1.6.0/AmazonIVSPlayer.xcframework.zip",
-            checksum: "17750e23e88156fcd1f085254edb1cf948aa32e080c5a838a36cacbc4ebe580f"
+            url: "https://player.live-video.net/1.8.0/AmazonIVSPlayer.xcframework.zip",
+            checksum: "c5422e0a9ddb628cff26d7e0f370ab389a65b8b41c1cee5258ed4c65c1405168"
         )
     ]
 )
